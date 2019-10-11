@@ -8,7 +8,7 @@ The official LogonLabs iOS Client library.
 Add these lines to your Podfile
 ```ruby
 use_frameworks!
-pod 'LogonLabs', '~> 1.0'
+pod 'LogonLabs', '~> 1.5.0'
 ```
 
 ## LogonLabs API
