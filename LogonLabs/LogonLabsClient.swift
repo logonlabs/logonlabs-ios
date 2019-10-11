@@ -117,7 +117,7 @@ public class LogonLabsClient : NSObject {
                             var recommendedProvider : ProviderTypes?
                             
                             //get social providers
-                            if let idps = dictionary["identity_providers"] as? [[String:String]] {
+                            if let idps = dictionary["social_identity_providers"] as? [[String:String]] {
                                 for p in idps {
                                     if let providerType = ProviderTypes(rawValue: p["type"]!) {
                                         providers.append(Provider(type: providerType))
